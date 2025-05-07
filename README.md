@@ -1,6 +1,5 @@
-estilos de cs aplicados en la paginas 
-
-* {
+# estilos de css aplicados 
+ ``` * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,3 +39,5 @@ footer {
     gap: 20px;
     padding: 20px;
 }
+
+
