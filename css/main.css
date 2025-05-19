@@ -53,3 +53,47 @@ footer {
     gap: 20px;
     padding: 20px;
 }
+@media screen and (max-width: 1200px) {
+    .contenedor {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    .contenedor {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .text {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+@media 
+only screen and (max-width: 768px) {
+    .contenedor {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .text {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
