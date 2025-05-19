@@ -22,15 +22,30 @@ main p {
 main div {
     padding: 20px
 }
+.contenedor {
+     display: flex;
+   flex-direction: row-reverse;
+   flex-wrap:row;
+   justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+}
+.text {
+  
+    overflow: auto;
+}
 /* alineacion de texto*/
 body main .alineado {
     text-align: center;
 }
+
 body main .alineado2 {
     justify-content: center;
     text-align: center;
     line-height: 1.6;
 }
+
 footer {
     width: 100%;
     height: 50px;
