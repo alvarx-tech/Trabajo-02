@@ -19,6 +19,8 @@ html { height: 100%;}
         
      } }
 
+     /*main*/
+     
 main h1 {      
 text-align: center;
 padding: 30px;
@@ -27,6 +29,7 @@ padding: 30px;
     padding: 10px;
   }
 }
+
   .contenedor {
      display: flex;
    flex-direction: row-reverse;
@@ -56,7 +59,7 @@ footer{
         gap: 300px;
     }
 }
-
+ /* estilos de resoluciones para moviles, tablets y computadoras*/
  @media screen and (max-width: 1200px) {
     .contenedor {
         flex-direction: column;
