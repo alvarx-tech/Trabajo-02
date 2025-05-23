@@ -69,13 +69,11 @@ footer{
  @media screen and (max-width: 1200px) {
     .contenedor {
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
     }
     .text {
         width: 100%;
     }
-  
-    
 }
 @media screen and (max-width: 576px) {
     .contenedor {
