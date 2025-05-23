@@ -1,10 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
 
-}
+@use 'utilidades/variables';
 
-@use "utilidades/variables";
+
 
 /* body*/
 html { height: 100%;}
@@ -15,7 +12,7 @@ background-color: variables.$color1;
       main {
             
          background-color: variables.$color1;
-         color: aliceblue;
+         color: variables.$color2;
          p {
                 text-align: center;
                 padding: 20px;
@@ -48,7 +45,7 @@ p{
     text-align: center;
     padding: 20px;
     gap: 280px;
-    color: aliceblue;
+    color: variables.$color2;
   }
 }
 /*footer*/
@@ -59,9 +56,10 @@ footer{
     margin-top: 0%;
     gap: 300px;
     width: 100%;
+    align-items: center;
     p {
         text-align: center;
-        color: aliceblue;
+        color: variables.$color2;
         gap: 300px;
     }
 }
